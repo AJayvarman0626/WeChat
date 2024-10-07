@@ -1,0 +1,204 @@
+.shadow {
+  box-shadow: 0 2px 15px rgb(0 0 0 / 68%);
+}
+
+/* Chat List */
+.ce-wrapper {
+  background-color: #4a5162 !important;
+}
+
+.ce-chats-container {
+  background-color: #4a5162 !important;
+  border-radius: 0px !important;
+}
+
+.ce-chat-form-container {
+  background-color: #4a5162 !important;
+  color: white;
+}
+
+.ce-chat-card {
+  margin: 0px 6px !important;
+}
+
+.ce-chat-card-loading-bar {
+  background-color: #535a6d !important;
+}
+
+.ce-active-chat-card {
+  background-color: #726dfe !important;
+}
+
+.ce-chat-title-text {
+  color: white !important;
+}
+
+.ce-chat-subtitle-text {
+  color: hsla(0, 0%, 100%, 0.568) !important;
+}
+
+.ce-chat-unread-dot {
+  background-color: white !important;
+}
+
+/* Chat Feed */
+
+.ce-chat-title-container {
+  background-color: #4a5162 !important;
+  border-radius: 0px !important;
+}
+
+.ce-chat-feed-container {
+  background-color: #4a5162 !important;
+}
+
+.ce-primary-button {
+  background-color: #9a97fc !important;
+}
+
+.ce-message-date-text {
+  color: hsla(0, 0%, 100%, 0.568) !important;
+}
+
+.ce-my-message-bubble {
+  background-color: #726dfe !important;
+}
+
+.ce-my-message-sinding-bubble {
+  background-color: #938ffe !important;
+}
+
+.ce-my-message-timestamp {
+  color: #9a97fc !important;
+}
+
+.ce-their-message-timestamp {
+  color: hsla(0, 0%, 100%, 0.568) !important;
+}
+
+#ce-send-message-button {
+  background-color: #9a97fc !important; /* Original style */
+}
+
+#ce-ice-breaker-gif {
+  max-width: 115px !important;
+  margin-top: 30px !important;
+}
+
+.ce-social-message-form {
+  background-color: #4a5162 !important;
+}
+
+.ce-message-input-form {
+  padding-bottom: 10px !important;
+}
+
+#msg-textarea {
+  width: calc(100% - 140px) !important;
+  position: relative !important;
+  top: 4px !important;
+  border-width: 0px !important;
+  background-color: #4a5162 !important;
+  color: white !important;
+}
+#msg-textarea::placeholder {
+  color: hsla(0, 0%, 100%, 0.568) !important;
+}
+
+#ce-upload-document-icon {
+  color: white !important;
+}
+
+.ce-feed-container-bottom {
+  height: "44px";
+}
+
+.ce-message-images-row {
+  background-color: #4a5162 !important;
+}
+
+.ce-their-message-sender {
+  color: hsla(0, 0%, 100%, 0.568) !important;
+}
+
+.ce-their-message-bubble {
+  background-color: #535a6d !important;
+  color: rgba(255, 255, 255, 0.705) !important;
+}
+
+/* Chat Settings */
+
+.ce-settings {
+  background-color: #4a5162 !important;
+  border-radius: 0px !important;
+}
+
+.ce-chat-title-form .ce-text-input {
+  background-color: #4a5162;
+  color: white;
+}
+
+.ce-section-title-container {
+  background-color: #4a5162 !important;
+  color: white;
+}
+
+#ce-options-drop-down {
+  background-color: #4a5162 !important;
+  color: white;
+}
+
+.ce-person-text {
+  color: hsla(0, 0%, 100%, 0.568);
+}
+
+.ce-danger-button {
+  background-color: #4a5162 !important;
+  border: 1px solid #9a97fc !important;
+  color: #9a97fc !important;
+}
+
+.ce-autocomplete-close {
+  background-color: white !important;
+  border-radius: 0px !important;
+}
+#ce-send-message-button {
+  background-image: url('/chat-engine-send-button.png') !important; /* URL for your send button image */
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important; /* Ensures the image scales correctly */
+  width: 40px !important;  /* Adjust button width */
+  height: 40px !important; /* Adjust button height */
+  border: none !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  text-indent: -9999px !important; /* This hides the text */
+  overflow: hidden !important; /* Prevents any overflow issues */
+}
+
+#ce-ice-breaker-gif {
+  background-image: url('/chat-engine-ice-breaker.png'); /* Path to your PNG */
+  background-size: cover; /* Make sure the image covers the element */
+  height: 120px; /* Set height */
+  width: 110px; /* Set width */
+  margin: 0 auto; /* Center the image */
+  display: block; /* Make it a block element */
+  border-radius: 20px; /* Curved corners */
+  margin-top: 30px !important; /* Adjust as needed */
+  text-indent: -9999px; /* Hides any text */
+  overflow: hidden; /* Hide any overflow */
+  position: relative; /* Positioning context for child elements */
+}
+
+/* This hides any img tags within the ice-breaker div */
+#ce-ice-breaker-gif img {
+  display: none !important; /* Hides any img elements */
+}
+
+/* To ensure no text appears */
+#ce-ice-breaker-gif:before {
+  content: ''; /* Prevents any text content */
+}
+
+
+
