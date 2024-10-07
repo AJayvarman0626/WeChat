@@ -1,0 +1,11 @@
+version: 1
+services:
+  - type: web
+    name: we-chat
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    routes:
+      - src: /(.+)
+        dest: $1
